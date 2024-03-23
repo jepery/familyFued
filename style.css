@@ -1,23 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     background-image: url("images/background.jpg");
     background-repeat: no-repeat;
 }
 
-.hero {
+#score1 {
+
     position: absolute;
-    width: 200px;
-    height: 200px;
-    padding-left: 45%;
+    left: 10px; /* Adjust this value as needed */
+    top: 50%; /* Adjust this value as needed */
+    transform: translateY(-50%);
+    margin-left: 40px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    
+#score2 {
+
+    position: absolute;
+    right: 10px; /* Adjust this value as needed */
+    top: 50%; /* Adjust this value as needed */
+    transform: translateY(-50%);
+    margin-right: 40px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
 }
 
-.wrapper {
-    padding-top: 10%;
-    padding-left: 45%;
+.oneX {
+    position: absolute;
+    top: 50%; /* Adjust this value as needed */
+    transform: translateY(-50%);
+}
+
+.twoX {
+    position: absolute;
+    top: 50%; /* Adjust this value as needed */
+    transform: translateY(-50%);
+}
+
+.threeX {
+    position: absolute;
+    top: 50%; /* Adjust this value as needed */
+    transform: translateY(-50%);
 }
