@@ -31,18 +31,21 @@ body {
 
 .oneX {
     position: absolute;
+    left: 340px;
     top: 50%; /* Adjust this value as needed */
     transform: translateY(-50%);
 }
 
 .twoX {
     position: absolute;
+    left: 340px;
     top: 50%; /* Adjust this value as needed */
     transform: translateY(-50%);
 }
 
 .threeX {
     position: absolute;
+    left: 340px;
     top: 50%; /* Adjust this value as needed */
     transform: translateY(-50%);
 }

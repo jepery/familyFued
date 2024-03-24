@@ -45,3 +45,31 @@ surveybutton8.onclick = function(){
     surveybutton8.style.display = "none";
     survey8.style.display = "block"
 };
+
+XoneTrigger.onclick = function() {
+
+    Xone.style.display = "block"    
+    Xtwo.style.display = "none" 
+    Xthree.style.display = "none"
+};
+
+XtwoTrigger.onclick = function() {
+
+    Xone.style.display = "none"   
+    Xtwo.style.display = "block" 
+    Xthree.style.display = "none"
+};
+
+XthreeTrigger.onclick = function() {
+
+    Xone.style.display = "none"   
+    Xtwo.style.display = "none" 
+    Xthree.style.display = "block"
+};
+
+Clear.onclick = function() {
+
+    Xone.style.display = "none"   
+    Xtwo.style.display = "none" 
+    Xthree.style.display = "none"
+};
