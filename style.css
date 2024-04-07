@@ -49,3 +49,9 @@ body {
     top: 50%; /* Adjust this value as needed */
     transform: translateY(-50%);
 }
+
+.containerTime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
