@@ -1,10 +1,10 @@
-let timeSecond = 25;
+let timeSecond = 20;
     const timeH = document.querySelector("h1");
     let countDownInterval;
 
     function startCountdown() {
 
-      var audio = new Audio('sounds/fastmoney1.mp3');
+      var audio = new Audio('sounds/fastmoney2.mp3');
       audio.play();
 
       clearInterval(countDownInterval); // Clear previous interval if any
